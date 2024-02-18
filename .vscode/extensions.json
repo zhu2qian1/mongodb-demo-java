@@ -1,8 +1,13 @@
 {
-  "recommendations": [
-    "redhat.java",
-    "vscjava.vscode-java-debug",
-    "vscjava.vscode-java-test",
-    "vscjava.vscode-gradle"
-  ]
+    "recommendations": [
+        "editorconfig.editorconfig",
+        "redhat.java",
+        "remimarche.cspell-tech",
+        "streetsidesoftware.code-spell-checker",
+        "vmware.vscode-spring-boot",
+        "vscjava.vscode-gradle",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-dependency",
+        "vscjava.vscode-java-test"
+    ]
 }
