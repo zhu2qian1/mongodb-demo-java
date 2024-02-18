@@ -1,0 +1,39 @@
+{
+    "cSpell.words": ["xabcdef"],
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnType": true,
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "java.autobuild.enabled": true,
+    "java.cleanup.actions": [
+        "addDeprecated",
+        "addFinalModifier",
+        "addOverride",
+        "instanceofPatternMatch",
+        "invertEquals",
+        "lambdaExpression",
+        "lambdaExpressionFromAnonymousClass",
+        "stringConcatToTextBlock",
+        "switchExpression",
+        "tryWithResource"
+    ],
+    "java.codeAction.sortMembers.avoidVolatileChanges": false,
+    "java.codeGeneration.hashCodeEquals.useInstanceof": true,
+    "java.codeGeneration.hashCodeEquals.useJava7Objects": true,
+    "java.codeGeneration.toString.codeStyle": "STRING_CONCATENATION",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.completion.enabled": true,
+    "java.completion.matchCase": "firstLetter",
+    "java.configuration.runtimes": [],
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.format.enabled": true,
+    "java.format.onType.enabled": true,
+    "java.format.settings.profile": "GoogleStyle",
+    "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
+    "java.inlayHints.parameterNames.enabled": "none",
+    "java.saveActions.organizeImports": true
+}
