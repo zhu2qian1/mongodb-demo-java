@@ -45,5 +45,18 @@
     "java.format.settings.profile": "GoogleStyle",
     "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
     "java.inlayHints.parameterNames.enabled": "none",
-    "java.saveActions.organizeImports": true
+    "java.saveActions.organizeImports": true,
+    "java.jdt.ls.lombokSupport.enabled": false,
+    "java.jdt.ls.protobufSupport.enabled": false,
+    "java.debug.logLevel": "info",
+    "java.sharedIndexes.enabled": "off",
+    "java.jdt.ls.androidSupport.enabled": "off",
+    "java.project.encoding": "warning",
+    "java.import.maven.enabled": false,
+    "java.completion.chain.enabled": true,
+    "java.quickfix.showAt": "problem",
+    "java.referencesCodeLens.enabled": true,
+    "java.implementationsCodeLens.enabled": true,
+    "java.typeHierarchy.lazyLoad": true,
+    "spring-boot.ls.problem.boot2.JAVA_CONSTRUCTOR_PARAMETER_INJECTION": "HINT"
 }
