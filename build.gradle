@@ -28,6 +28,9 @@ ext {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // mongo db
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 }
 
 dependencyManagement {

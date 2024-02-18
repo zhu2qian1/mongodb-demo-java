@@ -1,0 +1,44 @@
+GET http://localhost:8080/
+
+###
+
+GET http://localhost:8080/people
+
+###
+POST http://localhost:8080/people
+Content-Type: application/json
+
+{
+    "firstName": "Frodo",
+    "lastName": "Baggins"
+}
+
+###
+GET http://localhost:8080/people/search
+
+###
+GET http://localhost:8080/people/search/findByLastName?name=Baggins
+
+###
+PUT http://localhost:8080/people/65d21ca7b4b7f03ffd02bc49
+Content-Type: application/json
+
+{
+    "firstName": "Bilbo",
+    "lastName": "Baggins"
+}
+
+###
+GET http://localhost:8080/people/65d21ca7b4b7f03ffd02bc49
+
+###
+PATCH http://localhost:8080/people/65d21ca7b4b7f03ffd02bc49
+Content-Type: application/json
+
+{
+    "firstName": "Bilbo Jr."
+}
+
+###
+DELETE http://localhost:8080/people/65d21ca7b4b7f03ffd02bc49
+
