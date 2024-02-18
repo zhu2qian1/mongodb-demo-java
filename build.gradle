@@ -27,10 +27,10 @@ ext {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
-	implementation 'org.springframework.cloud:spring-cloud-function-context'
-	compileOnly 'org.projectlombok:lombok'
-	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // mongo db
+    implementation 'org.springframework.boot:spring-boot-starter-data-mongodb'
 }
 
 dependencyManagement {
