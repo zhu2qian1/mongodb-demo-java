@@ -1,5 +1,7 @@
 {
-    "cSpell.words": ["xabcdef"],
+    "cSpell.words": [
+        "xabcdef"
+    ],
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
@@ -58,5 +60,7 @@
     "java.referencesCodeLens.enabled": true,
     "java.implementationsCodeLens.enabled": true,
     "java.typeHierarchy.lazyLoad": true,
-    "spring-boot.ls.problem.boot2.JAVA_CONSTRUCTOR_PARAMETER_INJECTION": "HINT"
+    "spring-boot.ls.problem.boot2.JAVA_CONSTRUCTOR_PARAMETER_INJECTION": "HINT",
+    "xml.format.maxLineWidth": 0,
+    "spring-boot.ls.problem.application-properties.PROP_UNKNOWN_PROPERTY": "IGNORE"
 }
